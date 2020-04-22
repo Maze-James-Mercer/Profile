@@ -1,0 +1,43 @@
+#top-banner {
+    background-image: linear-gradient(10deg, rgba(0,0,0,1) 4%, rgba(0,0,0,0.9556197478991597) 7%, rgba(0,0,0,0.9192051820728291) 12%, rgba(0,0,0,0.7707457983193278) 18%, rgba(0,0,0,0.3029586834733894) 25%, rgba(0,0,0,0) 40%), url(../../images/background.jpg);
+    background-size: 100vw 50vw;
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    border-bottom: 1vw solid #111111 ;
+    margin-top: -2vw;
+}
+
+#wrapper-education {
+    position: absolute;
+    bottom: 0;
+}
+
+#section-education {
+    margin-bottom: 1vw;
+}
+
+#wrapper-experience {
+    margin-top: 1vw;
+}
+
+#top-banner-text {
+    margin-left: 5vw;
+    width: 40vw;
+}
+
+#top-banner-h1 {
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 5vw;
+}
+
+#top-banner-h2 {
+    color: #DB202C;
+    margin-bottom: 2vw;
+}
+
+.top-banner-p {
+    font-size: 1.5vw;
+    color: #111111;
+}

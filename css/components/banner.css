@@ -1,0 +1,204 @@
+/* #banner-edhec {
+    display: none;
+} */
+
+
+.banner {
+    margin-top:-2vw;
+    margin-bottom: 3vw;
+    z-index: auto;
+    width: 100vw;
+    height: 30vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display:none;
+}
+
+.banner-education {
+    margin-top: -1vw;
+}
+
+.banner .banner-image {
+    position: relative;
+    background-size: 60vw 30vw;
+    height: 30vw;
+    width: 60vw;
+}
+
+.banner .banner-text {
+    margin-left: 2.5vw;
+    width: 37.5vw;
+    height: 30vw;
+    background: black;
+    position: relative;
+}
+
+.banner .fa-times {
+    position: absolute;
+    right: 2vw;
+    top: 2vw;
+    font-size: 2vw;
+}
+
+.banner .fa-times:hover {
+    color: #141414;
+}
+
+.banner a {
+    color:white;
+}
+
+/* Image et chevron down de chaque bannière */
+
+    /* section education */
+
+#banner-image-edhec {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/edhec-banner.jpg");
+}
+
+#banner-image-exam {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/exam-banner.jpg");
+}
+
+#banner-image-recamier {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/recamier-banner.jpg");
+}
+
+#banner-image-lyon2 {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/lyon2-banner.jpg");
+}
+
+#banner-image-blaise {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/blaise-banner.jpg");
+}
+
+
+    /* section experience */
+
+#banner-image-homerun {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/homerun-banner.jpg");
+}
+
+#banner-image-tee {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/tee-banner.jpg");
+}
+
+#banner-image-soap {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/soap-banner.jpg");
+}
+
+#banner-image-tutor {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/tutor-banner.jpg");
+}
+
+#banner-image-fiducial {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/fiducial-banner.jpg");
+}
+
+
+    /* section experience */
+
+#banner-image-spirit {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/spirit-banner.jpg");
+}
+
+#banner-image-management {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/management-banner.jpg");
+}
+
+#banner-image-languages {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/languages-banner.jpg");
+}
+
+#banner-image-code {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/code-banner.jpg");
+}
+
+#banner-image-software {
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+    rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+    rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+    url("../../images/software-banner.jpg");
+}
+
+
+    /* section hobbies */
+
+    #banner-image-music {
+        background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+        rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+        rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+        url("../../images/music-banner.jpg");
+    }
+    
+    #banner-image-development {
+        background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+        rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+        rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+        url("../../images/development-banner.jpg");
+    }
+    
+    #banner-image-gym {
+        background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+        rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+        rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+        url("../../images/gym-banner.jpg");
+    }
+    
+    #banner-image-travel {
+        background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+        rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+        rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+        url("../../images/travel-banner.jpg");
+    }
+    
+    #banner-image-drawing {
+        background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
+        rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
+        rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
+        url("../../images/drawing-banner.jpg");
+    }

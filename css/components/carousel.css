@@ -1,0 +1,229 @@
+/* MISE EN FORME */
+
+.wrapper section {
+    /* height: 200px; */
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 1vw 2vw 3vw 2vw;
+}
+
+.wrapper .item {
+    margin: 0 0.2vw;
+    width: 18.8vw;
+    height: 10.5855855856vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper .item h1 {
+    color: white;
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    right: 3%;
+    font-size: 1.4vw;
+    font-family: 'Montserrat';
+}
+
+.wrapper .item .description {
+    color: white;
+    font-size: 0.9vw;
+    position: absolute;
+    top: 53%;
+    left: 3%;
+    right: 3%;
+    text-align: justify;
+}
+
+.wrapper .item .date {
+    color: white;
+    position: absolute;
+    top: 38%;
+    font-weight: bold;
+    left: 3%;
+    right: 3%
+}
+
+.wrapper .item svg {
+    font-size: 22px;
+    position: absolute;
+    left: 50%;
+    margin-left: -11px;
+    bottom: 0;
+}
+
+.wrapper .item button {
+    color: white;
+    max-width: 0;
+    max-height: 0;
+    background: transparent;
+    border: none; /* Faire disparaître le design du bouton par défaut */
+}
+
+.carousel-title {
+    padding: 0;
+    font-size: 1.7vw;
+    margin-left: 2vw;
+    margin-bottom: 0vw;
+    margin-right: 2vw;
+}
+
+
+
+/* CHANGEMENTS D'IMAGES */
+
+/* Images qui s'aggrandissent + marges */
+
+.wrapper .item:hover {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    transform: scale(1.7);
+    /* transition-delay: 0.15s; */
+    transition: 400ms;
+}
+
+/* Images qui s'appliquent avec le hover : backgrounds avec un filtre */
+
+    /* section education */
+
+.wrapper #card-edhec {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/edhec-bg.jpg);
+}
+
+.wrapper #card-exam {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/exam-bg.jpg);
+}
+
+.wrapper #card-recamier {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/recamier-bg.jpg);
+}
+
+.wrapper #card-lyon2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/lyon2-bg.jpg);
+}
+
+.wrapper #card-blaise {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/blaise-bg.jpg);
+}
+
+    /* section experience */
+    
+.wrapper #card-homerun {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/homerun-bg.jpg);
+}
+
+.wrapper #card-tee {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/tee-bg.jpg);
+}
+
+.wrapper #card-soap {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/soap-bg.jpg);
+}
+
+.wrapper #card-tutor {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/tutor-bg.jpg);
+}
+
+.wrapper #card-fiducial {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/fiducial-bg.jpg);
+}
+
+    /* section skills */
+    
+.wrapper #card-spirit {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/spirit-bg.jpg);
+}
+
+.wrapper #card-management {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/management-bg.jpg);
+}
+
+.wrapper #card-languages {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/languages-bg.jpg);
+}
+
+.wrapper #card-code {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/code-bg.jpg);
+}
+
+.wrapper #card-software {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/software-bg.jpg);
+}
+
+    /* section hobbies */
+    
+    .wrapper #card-music {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/music-bg.jpg);
+    }
+    
+    .wrapper #card-development {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/development-bg.jpg);
+    }
+    
+    .wrapper #card-gym {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/gym-bg.jpg);
+    }
+    
+    .wrapper #card-travel {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/travel-bg.jpg);
+    }
+    
+    .wrapper #card-drawing {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/drawing-bg.jpg);
+    }
+    
+
+
+/* Disparition de la première image pour laisser apparaître la deuxième grâce au hover */
+
+.wrapper .item img {
+    width: 18.8vw;
+    height: 10.5855855856vw;
+    z-index: 1;
+}
+
+.hit-box {
+    position: absolute;
+    width: 18.8vw;
+    height: 10.5855855856vw;
+    opacity: 0;
+    z-index: 3;
+}
+
+.hit-box:hover + img {  /* La hit box, qui fait la taille de l'image, et qui est "au-dessus" (z-index), ordonne grâce à hover
+    à l'image de devenir transparente pour laisser apparaitre le background et le texte*/
+    opacity: 0;
+    transition: 400ms;
+    /* transition-delay: 0.15s; */
+}
+
+/* Le chevron-down devient rouge grâce à son hover :
+        Pour pouvoir activer son hover, le bouton
+        doit être au premier plan (z-index). 
+        Mais s'il fait partie du même div que le texte,
+        alors ce n'est pas le cas, car l'image, pour 
+        être hoverable, doit être au premier plan.
+        Solution : créer un div qui joue le rôle de 
+        hit-box, lui faire faire disparaître l'image,
+        la mettre au premier plan pour qu'elle soit 
+        hoverable et pour que ce qu'elle contient le soit 
+        aussi (le chevron-down). */
+
+.wrapper .item svg:hover {
+    color:red;
+}
+
+.hit-box:hover {
+    transition: 400ms;
+    /* transition-delay: 0.15s; */
+    opacity: 1;
+}
+
+
+
+
+

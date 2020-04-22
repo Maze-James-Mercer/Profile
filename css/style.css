@@ -1,0 +1,42 @@
+@import url(components/header.css);
+@import url(components/top-banner.css);
+@import url(components/carousel.css);
+@import url(components/banner.css);
+@import url(components/footer.css);
+
+:root {
+    --primary: #141414;
+    --light: #F3F3F3;
+    --dark: 	#686868;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    color: var(--light);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+    
+img {
+    max-width: 100%;
+}
+    
+h1 {
+    padding-top: 60px;  
+}
+    
+.global {
+    margin: 0;
+    padding: 0;
+}
+
