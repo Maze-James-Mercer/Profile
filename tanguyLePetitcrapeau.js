@@ -6,7 +6,7 @@ function main() {
 
     // Section - Education
 
-    document.getElementById("btn-open-edhec").addEventListener("click", function() {
+    document.getElementById("lien-edhec").addEventListener("click", function() {
         document.getElementById("banner-edhec").style.display = "flex";
     });
     
@@ -20,7 +20,7 @@ function main() {
     // }
 
 
-    document.getElementById("btn-open-exam").addEventListener("click", function() {
+    document.getElementById("lien-exam").addEventListener("click", function() {
         document.getElementById("banner-exam").style.display = "flex";
     });
 
@@ -28,7 +28,7 @@ function main() {
         document.getElementById("banner-exam").style.display = "none";
     });
 
-    document.getElementById("btn-open-recamier").addEventListener("click", function() { 
+    document.getElementById("lien-recamier").addEventListener("click", function() { 
         document.getElementById("banner-recamier").style.display = "flex";
     });
     
@@ -36,7 +36,7 @@ function main() {
         document.getElementById("banner-recamier").style.display = "none";
     });
 
-    document.getElementById("btn-open-lyon2").addEventListener("click", function() { 
+    document.getElementById("lien-lyon2").addEventListener("click", function() { 
         document.getElementById("banner-lyon2").style.display = "flex";
     });
     
@@ -44,7 +44,7 @@ function main() {
         document.getElementById("banner-lyon2").style.display = "none";
     });
 
-    document.getElementById("btn-open-blaise").addEventListener("click", function() { 
+    document.getElementById("lien-blaise").addEventListener("click", function() { 
         document.getElementById("banner-blaise").style.display = "flex";
     });
     
@@ -55,7 +55,7 @@ function main() {
 
     // Section - Experience
 
-    document.getElementById("btn-open-homerun").addEventListener("click", function() {
+    document.getElementById("lien-homerun").addEventListener("click", function() {
         document.getElementById("banner-homerun").style.display = "flex";
     });
     
@@ -63,7 +63,7 @@ function main() {
         document.getElementById("banner-homerun").style.display = "none";
     });
     
-    document.getElementById("btn-open-tee").addEventListener("click", function() {
+    document.getElementById("lien-tee").addEventListener("click", function() {
         document.getElementById("banner-tee").style.display = "flex";
     });
 
@@ -71,7 +71,7 @@ function main() {
         document.getElementById("banner-tee").style.display = "none";
     });
 
-    document.getElementById("btn-open-soap").addEventListener("click", function() { 
+    document.getElementById("lien-soap").addEventListener("click", function() { 
         document.getElementById("banner-soap").style.display = "flex";
     });
     
@@ -79,7 +79,7 @@ function main() {
         document.getElementById("banner-soap").style.display = "none";
     });
 
-    document.getElementById("btn-open-tutor").addEventListener("click", function() { 
+    document.getElementById("lien-tutor").addEventListener("click", function() { 
         document.getElementById("banner-tutor").style.display = "flex";
     });
     
@@ -87,7 +87,7 @@ function main() {
         document.getElementById("banner-tutor").style.display = "none";
     });
 
-    document.getElementById("btn-open-fiducial").addEventListener("click", function() { 
+    document.getElementById("lien-fiducial").addEventListener("click", function() { 
         document.getElementById("banner-fiducial").style.display = "flex";
     });
     
@@ -98,7 +98,7 @@ function main() {
 
     // Section - Skills
 
-    document.getElementById("btn-open-spirit").addEventListener("click", function() {
+    document.getElementById("lien-spirit").addEventListener("click", function() {
         document.getElementById("banner-spirit").style.display = "flex";
     });
     
@@ -106,7 +106,7 @@ function main() {
         document.getElementById("banner-spirit").style.display = "none";
     });
     
-    document.getElementById("btn-open-management").addEventListener("click", function() {
+    document.getElementById("lien-management").addEventListener("click", function() {
         document.getElementById("banner-management").style.display = "flex";
     });
 
@@ -114,7 +114,7 @@ function main() {
         document.getElementById("banner-management").style.display = "none";
     });
 
-    document.getElementById("btn-open-languages").addEventListener("click", function() { 
+    document.getElementById("lien-languages").addEventListener("click", function() { 
         document.getElementById("banner-languages").style.display = "flex";
     });
     
@@ -122,7 +122,7 @@ function main() {
         document.getElementById("banner-languages").style.display = "none";
     });
 
-    document.getElementById("btn-open-code").addEventListener("click", function() { 
+    document.getElementById("lien-code").addEventListener("click", function() { 
         document.getElementById("banner-code").style.display = "flex";
     });
     
@@ -130,7 +130,7 @@ function main() {
         document.getElementById("banner-code").style.display = "none";
     });
 
-    document.getElementById("btn-open-software").addEventListener("click", function() { 
+    document.getElementById("lien-software").addEventListener("click", function() { 
         document.getElementById("banner-software").style.display = "flex";
     });
     
@@ -141,7 +141,7 @@ function main() {
 
     // Section - Hobbies
 
-    document.getElementById("btn-open-music").addEventListener("click", function() {
+    document.getElementById("lien-music").addEventListener("click", function() {
         document.getElementById("banner-music").style.display = "flex";
     });
     
@@ -149,7 +149,7 @@ function main() {
         document.getElementById("banner-music").style.display = "none";
     });
     
-    document.getElementById("btn-open-development").addEventListener("click", function() {
+    document.getElementById("lien-development").addEventListener("click", function() {
         document.getElementById("banner-development").style.display = "flex";
     });
 
@@ -157,7 +157,7 @@ function main() {
         document.getElementById("banner-development").style.display = "none";
     });
 
-    document.getElementById("btn-open-gym").addEventListener("click", function() { 
+    document.getElementById("lien-gym").addEventListener("click", function() { 
         document.getElementById("banner-gym").style.display = "flex";
     });
     
@@ -165,7 +165,7 @@ function main() {
         document.getElementById("banner-gym").style.display = "none";
     });
 
-    document.getElementById("btn-open-travel").addEventListener("click", function() { 
+    document.getElementById("lien-travel").addEventListener("click", function() { 
         document.getElementById("banner-travel").style.display = "flex";
     });
     
@@ -173,7 +173,7 @@ function main() {
         document.getElementById("banner-travel").style.display = "none";
     });
 
-    document.getElementById("btn-open-drawing").addEventListener("click", function() { 
+    document.getElementById("lien-drawing").addEventListener("click", function() { 
         document.getElementById("banner-drawing").style.display = "flex";
     });
     
