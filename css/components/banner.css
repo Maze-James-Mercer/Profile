@@ -35,6 +35,26 @@
     position: relative;
 }
 
+.banner-text h1 {
+    font-size: 2.5vw;
+    margin-top: 0vw;
+    padding-top: 2.5vw;
+}
+
+.banner-text h2 {
+    color: var(--dark);
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+    font-weight: lighter;
+    font-size: 1.9vw;
+}
+
+.banner-text p {
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+}
+
 .banner .fa-times {
     position: absolute;
     right: 2vw;
@@ -48,6 +68,10 @@
 
 .banner a {
     color:white;
+}
+
+#btn-close-exam, #btn-close-homerun, #btn-close-tee, #btn-close-development, #btn-close-music, #bnt-close-gym {
+    color: var(--dark);
 }
 
 /* Image et chevron down de chaque bannière */

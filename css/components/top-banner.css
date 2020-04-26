@@ -28,16 +28,20 @@
 
 #top-banner-h1 {
     color: black;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 5vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    padding-top: 6vw;
 }
 
 #top-banner-h2 {
     color: #DB202C;
-    margin-bottom: 2vw;
+    margin-bottom: 5vw;
+    margin-top: 4vw;
+    font-weight: lighter;
 }
 
 .top-banner-p {
     font-size: 1.5vw;
-    color: #111111;
+    color: white;
+    text-align: left;
 }

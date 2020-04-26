@@ -72,6 +72,10 @@
     margin-right: 2vw;
 }
 
+.hit-box a {
+    display: block;
+    height: 100%;
+}
 
 
 /* CHANGEMENTS D'IMAGES */
