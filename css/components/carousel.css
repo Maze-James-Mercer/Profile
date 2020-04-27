@@ -20,7 +20,7 @@
 }
 
 .wrapper .item h1 {
-    color: white;
+    color: E5E5E5;
     position: absolute;
     top: -20%;
     left: 3%;
@@ -30,7 +30,7 @@
 }
 
 .wrapper .item .description {
-    color: white;
+    color: E5E5E5;
     font-size: 0.9vw;
     position: absolute;
     top: 53%;
@@ -40,7 +40,7 @@
 }
 
 .wrapper .item .date {
-    color: white;
+    color: E5E5E5;
     position: absolute;
     top: 38%;
     font-weight: bold;
@@ -57,7 +57,7 @@
 }
 
 .wrapper .item button {
-    color: white;
+    color: E5E5E5;
     max-width: 0;
     max-height: 0;
     background: transparent;
@@ -70,6 +70,7 @@
     margin-left: 2vw;
     margin-bottom: 0vw;
     margin-right: 2vw;
+    font-family: 'Montserrat'
 }
 
 .hit-box a {

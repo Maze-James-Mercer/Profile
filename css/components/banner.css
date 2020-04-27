@@ -39,6 +39,7 @@
     font-size: 2.5vw;
     margin-top: 0vw;
     padding-top: 2.5vw;
+    font-family: 'Montserrat'
 }
 
 .banner-text h2 {
@@ -57,22 +58,22 @@
 
 .banner .fa-times {
     position: absolute;
-    right: 2vw;
-    top: 2vw;
-    font-size: 2vw;
+    left: 0vw;
+    top: 1vw;
+    font-size: 1.5vw;
 }
 
 .banner .fa-times:hover {
-    color: #141414;
+    color: rgb(130,130,130);
 }
 
 .banner a {
-    color:white;
+    color:E5E5E5;
 }
 
-#btn-close-exam, #btn-close-homerun, #btn-close-tee, #btn-close-development, #btn-close-music, #bnt-close-gym {
+/* #btn-close-exam, #btn-close-homerun, #btn-close-tee, #btn-close-development, #btn-close-music, #bnt-close-gym {
     color: var(--dark);
-}
+} */
 
 /* Image et chevron down de chaque bannière */
 
