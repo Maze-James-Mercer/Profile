@@ -62,6 +62,7 @@ header {
 .sub-nav {
   grid-area: sb;
   padding: 0 2.857vw 0 2.857vw;
+  margin-right: -3vw;
 }
 
 .sub-nav a {
@@ -81,3 +82,7 @@ header {
   margin-top: -5vw;
 }
 
+#resume {
+  margin-left: 50%;
+  margin-right: 0;
+}
