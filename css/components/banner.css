@@ -73,7 +73,8 @@
 }
 
 .banner a {
-    color:E5E5E5;
+    color: rgb(160,160,160);
+    font-size: 1.3vw;
 }
 
 /* #btn-close-exam, #btn-close-homerun, #btn-close-tee, #btn-close-development, #btn-close-music, #bnt-close-gym {
