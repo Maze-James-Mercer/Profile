@@ -61,6 +61,20 @@
     font-size: 1.3vw;
 }
 
+
+@media (min-width: 1450px) {
+    .banner-text p {
+        font-size: 1.1vw;
+    }
+}
+
+@media (min-width: 1550px) {
+    .banner-text p {
+        font-size: 1vw;
+    }
+}
+
+
 .banner .fa-times {
     position: absolute;
     left: 0vw;
