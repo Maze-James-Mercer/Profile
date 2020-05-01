@@ -91,6 +91,19 @@
     font-size: 1.3vw;
 }
 
+@media (min-width: 1450px) {
+    .banner a {
+        font-size: 1.1vw;
+    }
+}
+
+@media (min-width: 1550px) {
+    .banner a {
+        font-size: 1vw;
+    }
+}
+
+
 /* #btn-close-exam, #btn-close-homerun, #btn-close-tee, #btn-close-development, #btn-close-music, #bnt-close-gym {
     color: var(--dark);
 } */
