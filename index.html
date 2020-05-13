@@ -13,6 +13,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tanguy Lepage</title>
+    <meta name="description" content="Welcome to my website. Download my CV or discover my education, experience, skills and hobbies.">
+    <meta data-react-helmet="true" name="robots" content="index">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -75,7 +77,7 @@
       <div class="lien-top-banner"></div> <!-- Les div "lien-[...]" sont plus haut que la section qu'ils lient avec les boutons du header pour ne pas que le header ne cache le titre de la section  -->
       <div id="top-banner-text">
         <h1 id="top-banner-h1">TANGUY LEPAGE</h1>
-        <h2 id="top-banner-h2">Enthousiast student entrepreneur</h2>
+        <p id="top-banner-h2">Enthousiast student entrepreneur</p>
         <p class="top-banner-p">I am a 20 year old French and I study at EDHEC Business School.</p>
         <p class="top-banner-p">I thrive on creating, learning and meeting new people.</p>
         <p class="top-banner-p">Here is my resume. Do not hesitate to contact me.</p>
@@ -86,7 +88,7 @@
       <div class="wrapper" id="wrapper-education">
         <div class="lien" id="lien-education"></div> 
         <div class="container" id="container-education"></div>
-          <h1 class="carousel-title" id="title-education">Education</h1>
+          <h2 class="carousel-title" id="title-education">Education</h2>
           <section class="location" id="section-education">
 
             <div class="item" id="card-edhec">
@@ -95,9 +97,9 @@
                   <i class="fas fa-chevron-down" id="chevron-edhec"></i>
                 </button></a>
               </div>
-              <img src="images/edhec-img.jpg" alt="">
+              <img src="images/edhec-img.jpg" alt="EDHEC Campus">
               <p class="date">2019-2023</p>
-              <h1>EDHEC Business School</h1>
+              <h3 class="item-title">EDHEC Business School</h3>
               <p class="description">Master's Degree in Management</p>
             </div>
 
@@ -107,9 +109,9 @@
                   <i class="fas fa-chevron-down" id="chevron-exam"></i>
                 </button></a>
               </div>
-              <img src="images/exam-img.jpg" alt="">
+              <img src="images/exam-img.jpg" alt="Exercice book">
               <p class="date">2019</p>
-              <h1>Examination</h1>
+              <h3 class="item-title">Examination</h3>
               <p class="description">Admission examination national results</p>
             </div>
 
@@ -119,9 +121,9 @@
                   <i class="fas fa-chevron-down" id="chevron-recamier"></i>
                 </button></a>
               </div>
-              <img src="images/recamier-img.jpg" alt="">
+              <img src="images/recamier-img.jpg" alt="Lycée Juliette Récamier">
               <p class="date">2017-2019</p>
-              <h1>Juliette Récamier</h1>
+              <h3 class="item-title">Juliette Récamier</h3>
               <p class="description">Pre-business administration program in Economics</p>
             </div>
 
@@ -131,9 +133,9 @@
                   <i class="fas fa-chevron-down" id="chevron-lyon2"></i>
                 </button></a>
               </div>
-              <img src="images/lyon2-img.jpg" alt="">
+              <img src="images/lyon2-img.jpg" alt="Université Lumière Lyon 2>
               <p class="date">2017-2019</p>
-              <h1>Université Lyon 2</h1>
+              <h3 class="item-title">Université Lyon 2</h3>
               <p class="description">Two-year program in Economics</p>
             </div>
 
@@ -143,9 +145,9 @@
                   <i class="fas fa-chevron-down" id="chevron-blaise"></i>
                 </button></a>
               </div>
-              <img src="images/blaise-img.jpg" alt="">
+              <img src="images/blaise-img.jpg" alt="Lycée Blaise Pascal Charbonnières">
               <p class="date">2014-2017</p>
-              <h1>Lycée Blaise Pascal</h1>
+              <h3 class="item-title">Lycée Blaise Pascal</h3>
               <p class="description">French Baccalauréat with Highest Honors, concentration in Mathematics.</p>
             </div>
 
@@ -158,9 +160,9 @@
     
       <div class="banner collapse banner-education" id="banner-edhec">
         <div class="banner-text">
-          <h1>EDHEC Business School</h1>
-          <h2>France - Lille</h2>
-          <h2>2019-2023</h2>
+          <h3>EDHEC Business School</h3>
+          <h4>France - Lille</h4>
+          <h4>2019-2023</h4>
           <p>Student in a four-year business studies program leading to the <strong>in Management of EDHEC</strong> , <strong>Master in Management Studies of SKK Graduate School of Business</strong> and the <strong>Diploma in Global Economic Transformation & Technology of Haas Business School at the University of California Berkeley</strong>.</p>
         </div>
         <div class="banner-image" id="banner-image-edhec">
@@ -170,9 +172,9 @@
 
       <div class="banner collapse banner-education" id="banner-exam">
         <div class="banner-text">
-          <h1>Admission examination national results</h1>
-          <h2>France</h2>
-          <h2>2019</h2>
+          <h3>Admission examination national results</h3>
+          <h4>France</h4>
+          <h4>2019</h4>
           <p>At the end of the two-year pre-business administration program, students have national exams to enter French business schools and Ecole Normale Supérieure of Paris-Saclay.</p>
           <p>I was admitted <strong>1st for EDHEC Business School</strong>, <strong>9th for ENS Paris-Saclay</strong> and <strong>1st for Ecole Nationale de la Statistique et de l'Analyse de l'Information</strong>.</p>
         </div>
@@ -183,9 +185,9 @@
 
       <div class="banner collapse banner-education" id="banner-recamier">
         <div class="banner-text">
-          <h1>Juliette Récamier D2</h1>
-          <h2>France - Lyon</h2>
-          <h2>2017-2019</h2>
+          <h3>Juliette Récamier D2</h3>
+          <h4>France - Lyon</h4>
+          <h4>2017-2019</h4>
           <p><strong>Pre-business administration program in Economics</strong> for national competitive examinations to enter French business schools and <strong>ENS</strong> (Ecole Normale Supérieure) Paris-Saclay.</p>
           <p>I studied macroeconomics, microeconomics, history of economical facts, mathematics, general culture and methodology during two years.</p>
           <p>The workload was about <strong>70 hours a week</strong>.</p>
@@ -197,9 +199,9 @@
 
       <div class="banner collapse banner-education" id="banner-lyon2">
         <div class="banner-text">
-          <h1>Université Lumière Lyon 2</h1>
-          <h2>France - Lyon</h2>
-          <h2>2017-2019</h2>
+          <h3>Université Lumière Lyon 2</h3>
+          <h4>France - Lyon</h4>
+          <h4>2017-2019</h4>
           <p>While I was studying at Juliette Récamier, I attended mathematics, statistics, accounting and economics courses and exams at Université Lumière Lyon 2.</p>
         </div>
         <div class="banner-image" id="banner-image-lyon2">
@@ -209,9 +211,9 @@
 
       <div class="banner collapse banner-education" id="banner-blaise">
         <div class="banner-text">
-          <h1>Lycée Blaise Pascal</h1>
-          <h2>France - Charbonnières-les-Bains</h2>
-          <h2>2014-2017</h2>
+          <h3>Lycée Blaise Pascal</h3>
+          <h4>France - Charbonnières-les-Bains</h4>
+          <h4>2014-2017</h4>
           <p>I studied mathematics, engineering sciences, physics, philosophy and history in Highschool.</p>
           <p>I graduated <strong>French Baccalauréat (scientific section) with Highest Honors</strong> with a concentration in <strong>Mathematics</strong>.</p>
         </div>
@@ -229,7 +231,7 @@
     <div class="wrapper" id="wrapper-experience">
       <div class="lien" id="lien-experience"></div> 
       <div class="container" id="container-experience"></div>
-        <h1 class="carousel-title" id="title-experience">Experience</h1>
+        <h2 class="carousel-title" id="title-experience">Experience</h2>
         <section class="location" id="section-experience">
 
           <div class="item" id="card-homerun">
@@ -238,9 +240,9 @@
                 <i class="fas fa-chevron-down" id="chevron-homerun"></i>
               </button></a>
             </div>
-            <img src="images/homerun-img.jpg" alt="">
+            <img src="images/homerun-img.jpg" alt="Startup Homerun">
             <p class="date">2019-today</p>
-            <h1>HomeRun</h1>
+            <h3 class="item-title">HomeRun</h3>
             <p class="description">Co-founder, early-stage startup</p>
           </div>
 
@@ -250,9 +252,9 @@
                 <i class="fas fa-chevron-down" id="chevron-tee"></i>
               </button></a>
             </div>
-            <img src="images/tee-img.jpg" alt="">
+            <img src="images/tee-img.jpg" alt="Total EDHEC Entreprendre">
             <p class="date">2019-today</p>
-            <h1>TEE</h1>
+            <h3 class="item-title">TEE</h3>
             <p class="description">Student association linking startups with investors</p>
           </div>
 
@@ -262,9 +264,9 @@
                 <i class="fas fa-chevron-down" id="chevron-soap"></i>
               </button></a>
             </div>
-            <img src="images/soap-img.jpg" alt="">
+            <img src="images/soap-img.jpg" alt="New Soap">
             <p class="date">June-August-2019</p>
-            <h1>New Soap</h1>
+            <h3 class="item-title">New Soap</h3>
             <p class="description">Intern consultant for an early-stage startup</p>
           </div>
 
@@ -274,9 +276,9 @@
                 <i class="fas fa-chevron-down" id="chevron-tutor"></i>
               </button></a>
             </div>
-            <img src="images/tutor-img.jpg" alt="">
+            <img src="images/tutor-img.jpg" alt="Mathematics tutor">
             <p class="date">2018</p>
-            <h1>Mathematics tutor</h1>
+            <h3 class="item-title">Mathematics tutor</h3>
             <p class="description">Teached 5 highschool students</p>
           </div>
 
@@ -286,9 +288,9 @@
                 <i class="fas fa-chevron-down" id="chevron-fiducial"></i>
               </button></a>
             </div>
-            <img src="images/fiducial-img.jpg" alt="">
+            <img src="images/fiducial-img.jpg" alt="Fiducial internship audit">
             <p class="date">June 2015</p>
-            <h1>Fiducial Audit</h1>
+            <h3 class="item-title">Fiducial Audit</h3>
             <p class="description">Highschool Intern</p>
           </div>
 
@@ -300,10 +302,10 @@
 
     <div class="banner collapse" id="banner-homerun">
       <div class="banner-text">
-        <h1>HomeRun, early-stage startup</h1>
-        <h2>Co-founder</h2>
-        <h2>France - Lille</h2>
-        <h2>2019-now</h2>
+        <h3>HomeRun, early-stage startup</h3>
+        <h4>Co-founder</h4>
+        <h4>France - Lille</h4>
+        <h4>2019-now</h4>
         <p>From the first months at EDHEC, I embarked on a startup project in collaboration with a partner. We created an online rental management agency designed to save money and time for owners and tenants from the search to the exit of the tenant. I performed market analysis, surveys, benchmarks. We designed an app.</p>
       </div>
       <div class="banner-image" id="banner-image-homerun">
@@ -313,10 +315,10 @@
 
     <div class="banner collapse" id="banner-tee">
       <div class="banner-text">
-        <h1>Total EDHEC Entreprendre</h1>
-        <h2>Organizer of the contest</h2>
-        <h2>France - Lille</h2>
-        <h2>2019-now</h2>
+        <h3>Total EDHEC Entreprendre</h3>
+        <h4>Organizer of the contest</h4>
+        <h4>France - Lille</h4>
+        <h4>2019-now</h4>
         <p>We, as a student association, organize the <strong>leading student contest of startups of France with 350K€ of rewards</strong>. Along with the other members, I gathered startups, incubators and partners. We reviewied and selected numerous Business Plans.</p>
         <a target="_blank" href="http://www.concourstee.fr/">Click here to learn more about TEE !</a>
       </div>
@@ -327,10 +329,10 @@
 
     <div class="banner collapse" id="banner-soap">
       <div class="banner-text">
-        <h1>New Soap</h1>
-        <h2>Intern consultant</h2>
-        <h2>France - Lyon</h2>
-        <h2>June-August-2019</h2>
+        <h3>New Soap</h3>
+        <h4>Intern consultant</h4>
+        <h4>France - Lyon</h4>
+        <h4>June-August-2019</h4>
         <p>Millions of shower gel packagings end up in the ocean every week. People do not use soap because it is not user-friendly. New Soap aims to change the statu-quo.</p>
         <p>I benchmarked packagings, created strategies for launch, production and distribution of the soap, and gathered a network of local producers.</p>
       </div>
@@ -341,9 +343,9 @@
 
     <div class="banner collapse" id="banner-tutor">
       <div class="banner-text">
-        <h1>Mathematics private tutor</h1>
-        <h2>France - Lyon</h2>
-        <h2>2018</h2>
+        <h3>Mathematics private tutor</h3>
+        <h4>France - Lyon</h4>
+        <h4>2018</h4>
         <p>I gave <strong>80 hours of lesson to 5 highschool students</strong>. One graduated with 19/20 in mathematics.</p>
       </div>
       <div class="banner-image" id="banner-image-tutor">
@@ -353,10 +355,10 @@
 
     <div class="banner collapse" id="banner-fiducial">
       <div class="banner-text">
-        <h1>Fiducial Audit</h1>
-        <h2>France - Lyon</h2>
-        <h2>June 2015</h2>
-        <h2>Highschool intern</h2>
+        <h3>Fiducial Audit</h3>
+        <h4>France - Lyon</h4>
+        <h4>June 2015</h4>
+        <h4>Highschool intern</h4>
         <p>It was my first experience in a company. I designed a chart summarizing exhaustively the various links between the 10 affiliates of Fiducial for my manager.</p>
       </div>
       <div class="banner-image" id="banner-image-fiducial">
@@ -369,7 +371,7 @@
     <div class="wrapper">
       <div class="lien" id="lien-skills"></div> 
       <div class="container" id="container-skills"></div>
-        <h1 class="carousel-title" id="title-skills">Skills</h1>
+        <h2 class="carousel-title" id="title-skills">Skills</h2>
         <section class="location" id="section-skills">
 
           <div class="item" id="card-spirit">
@@ -379,8 +381,8 @@
               </button></a>
             </div>
             <img src="images/spirit-img.jpg" alt="">
-            <h1>Entrepreneurship</h1>
-            <p class="description">A mindset and skills-set to create value in an innovative way.</p>
+            <h3 class="item-title lower">Entrepreneurship</h3>
+            <p class="description upper">A mindset and skills-set to create value in an innovative way.</p>
           </div>
 
           <div class="item" id="card-management">
@@ -390,8 +392,8 @@
               </button></a>
             </div>
             <img src="images/management-img.jpg" alt="">
-            <h1>Collaborative skills</h1>
-            <p class="description">Create a synergy within a group to reach a common goal</p>
+            <h3 class="item-title lower">Collaborative skills</h3>
+            <p class="description upper">Create a synergy within a group to reach a common goal</p>
           </div>
 
           <div class="item" id="card-languages">
@@ -401,8 +403,8 @@
               </button></a>
             </div>
             <img src="images/languages-img.jpg" alt="">
-            <h1>Languages</h1>
-            <p class="description">French - English - Chinese - Spanish</p>
+            <h3 class="item-title lower">Languages</h3>
+            <p class="description upper">French - English - Chinese - Spanish</p>
           </div>
 
           <div class="item" id="card-code">
@@ -412,8 +414,8 @@
               </button></a>
             </div>
             <img src="images/code-img.jpg" alt="">
-            <h1>Programming languages</h1>
-            <p class="description">Python - HTML5 - CSS3</p>
+            <h3 class="item-title lower">Programming languages</h3>
+            <p class="description upper">Python - HTML5 - CSS3</p>
           </div>
 
           <div class="item" id="card-software">
@@ -423,8 +425,8 @@
               </button></a>
             </div>
             <img src="images/software-img.jpg" alt="">
-            <h1>Softwares</h1>
-            <p class="description">Office Pack, Sony Vegas Pro, Prezi, Reaper, Unreal Engine 4, Photoshop, Wix</p>
+            <h3 class="item-title lower">Softwares</h3>
+            <p class="description upper">Office Pack, Sony Vegas Pro, Prezi, Reaper, Unreal Engine 4, Photoshop, Wix</p>
           </div>
 
         </section>
@@ -435,7 +437,7 @@
 
     <div class="banner collapse" id="banner-spirit">
       <div class="banner-text">
-        <h1>Entrepreneurship</h1>
+        <h3>Entrepreneurship</h3>
         <p>I have always thrived on creating. All my professional choices are orientated towards entrepreneurship.</p>
         <p>Since I started to study at EDHEC, <strong>I joined the incubator, worked on two businesses, organized the leading student startup contest of France</strong> and met numerous entrepreneurs and investors at events such as pitch contest at Paris biggest incubators, <strong>The Family, Schoolab, Station F</strong>.</p>
       </div>
@@ -446,7 +448,7 @@
 
     <div class="banner collapse" id="banner-management">
       <div class="banner-text">
-        <h1>Collaborative skills</h1>
+        <h3>Collaborative skills</h3>
         <p>I had the opportunity to manage multiple groups from highschool to EDHEC. I managed :</p>
         <p>- a team of <strong>4 for 250 hours</strong> of work in 2017 to design a test bench for an electric engine.</p>
         <p>- <strong>4 musicians</strong> through 30 rehearsals and 2 concerts in 2016 in a Rock 'n Roll band.</p>
@@ -459,7 +461,7 @@
 
     <div class="banner collapse" id="banner-languages">
       <div class="banner-text">
-        <h1>Languages</h1>
+        <h3>Languages</h3>
         <p><strong>French</strong> is my native tongue.</p>
         <p>I speak <strong>fluently in English</strong> (TOEIC : 975/990).</p>
         <p>I studied <strong>Chinese during 9 years</strong>.</p>
@@ -472,7 +474,7 @@
 
     <div class="banner collapse" id="banner-code">
       <div class="banner-text">
-        <h1>Programming languages</h1>
+        <h3>Programming languages</h3>
         <p>To better communicate and work with engineers and developers, I started in 2020 to learn how to code with courses on the Internet.</p>
         <p>I coded this website with CSS3, HTML5 and a little bit of Java-Script.</p>
         <p><strong>Python (basic) - HTML5 (advanced) - CSS3 (advanced)</strong></p>
@@ -484,7 +486,7 @@
 
     <div class="banner collapse" id="banner-software">
       <div class="banner-text">
-        <h1>Softwares</h1>
+        <h3>Softwares</h3>
         <p>I learned how to use the Office Pack, and specially <strong>Excel</strong> at EDHEC.</p>
         <p>I use <strong>Sony Vegas</strong> Pro and <strong>Reaper</strong> to record and edit audio and video for music covers.</p>
         <p>I also know a little of Prezi, Unreal Engine 4, Photoshop and Wix.</p>
@@ -500,7 +502,7 @@
     <div class="wrapper">
       <div class="lien" id="lien-hobbies"></div> 
       <div class="container" id="container-hobbies"></div>
-        <h1 class="carousel-title" id="title-hobbies">Hobbies</h1>
+        <h2 class="carousel-title" id="title-hobbies">Hobbies</h2>
         <section class="location" id="section-hobbies">
 
           <div class="item" id="card-music">
@@ -509,9 +511,9 @@
                 <i class="fas fa-chevron-down" id="chevron-music"></i>
               </button></a>
             </div>
-            <img src="images/music-img.jpg" alt="">
-            <h1>Music</h1>
-            <p class="description">Guitar - piano - bass - drums</p>
+            <img src="images/music-img.jpg" alt="Music piano concert">
+            <h3 class="item-title lower">Music</h3>
+            <p class="description upper">Guitar - piano - bass - drums</p>
           </div>
 
           <div class="item" id="card-development">
@@ -520,9 +522,9 @@
                 <i class="fas fa-chevron-down" id="chevron-development"></i>
               </button></a>
             </div>
-            <img src="images/development-img.jpg" alt="">
-            <h1>Personal development</h1>
-            <p class="description">The search of constant improvement through learning and doing.</p>
+            <img src="images/development-img.jpg" alt="Personal development books">
+            <h3 class="item-title lower">Personal development</h3>
+            <p class="description upper">The search of constant improvement through learning and doing.</p>
           </div>
 
           <div class="item" id="card-gym">
@@ -531,9 +533,9 @@
                 <i class="fas fa-chevron-down" id="chevron-gym"></i>
               </button></a>
             </div>
-            <img src="images/gym-img.jpg" alt="">
-            <h1>Working out</h1>
-            <p class="description">Sharpening the body, the health and the will-power.</p>
+            <img src="images/gym-img.jpg" alt="working out bench press">
+            <h3 class="item-title lower">Working out</h3>
+            <p class="description upper">Sharpening the body, the health and the will-power.</p>
           </div>
 
           <div class="item" id="card-travel">
@@ -542,9 +544,9 @@
                 <i class="fas fa-chevron-down" id="chevron-travel"></i>
               </button></a>
             </div>
-            <img src="images/travel-img.jpg" alt="">
-            <h1>Travel</h1>
-            <p class="description">Being open-minded and international.</p>
+            <img src="images/travel-img.jpg" alt="Niagara Falls">
+            <h3 class="item-title lower">Travel</h3>
+            <p class="description upper">Being open-minded and international.</p>
           </div>
 
           <div class="item" id="card-drawing">
@@ -553,9 +555,9 @@
                 <i class="fas fa-chevron-down" id="chevron-drawing"></i>
               </button></a>
             </div>
-            <img src="images/drawing-img.jpg" alt="">
-            <h1>Drawing</h1>
-            <p class="description">A silent way to express feelings.</p>
+            <img src="images/drawing-img.jpg" alt="skyrim drawing">
+            <h3 class="item-title lower">Drawing</h3>
+            <p class="description upper">A silent way to express feelings.</p>
           </div>
 
         </section>
@@ -566,7 +568,7 @@
 
     <div class="banner collapse" id="banner-music">
       <div class="banner-text">
-        <h1>Music</h1>
+        <h3>Music</h3>
         <p>Music is my favorite hobby.</p>
         <p>I have been playing the <strong>guitar for 14 years</strong>. I am self-educated in piano, bass and drums.</p>
         <a target="_blank" href="https://www.youtube.com/watch?v=CccyMVnaoa4">Click here to listen to my guitar cover of Back in Black !</a>
@@ -581,7 +583,7 @@
 
     <div class="banner collapse" id="banner-development">
       <div class="banner-text">
-        <h1>Personal development</h1>
+        <h3>Personal development</h3>
         <p>How to be better ? How to grow ? How to be more productive ? How to follow your dreams ? Personal improvement is a big promise.</p>
         <p>I started personal improvement in 2017 and since then <strong>I read and summarized 45 books.</strong></p>
         <a target="_blank" href="https://docs.google.com/document/d/154bWlwiLo6D3qDriJTlEn8qDT_XX5ag5SGi9qPbrbkY/edit">Click here to read these summaries !</a>
@@ -593,7 +595,7 @@
 
     <div class="banner collapse" id="banner-gym">
       <div class="banner-text">
-        <h1>Working out</h1>
+        <h3>Working out</h3>
         <p>I have been going to the gym <strong>4 hours a week since 2015</strong>.</p>
         <p>Working out greatly increased my <strong>consistency</strong> and <strong>perseverance</strong>, as well as my daily energy.</p>
         <p>I also like playing tennis, skiing and karate.</p>
@@ -605,7 +607,7 @@
 
     <div class="banner collapse" id="banner-travel">
       <div class="banner-text">
-        <h1>Travel</h1>
+        <h3>Travel</h3>
         <p>Discovering new cultures and way of life is both interesting and useful when it comes to working in a multinational company.</p>
         <p>I went in host families in <strong>Mexico</strong> for 1 month, in <strong>Canada</strong> for 3 weeks and in <strong>China</strong> for 2 weeks.</p>
         <p>Thanks to the EDHEC GETT program, I will live 4 months in <strong>Seoul</strong> and 10 months in <strong>Berkeley</strong>, California.</p>
@@ -617,7 +619,7 @@
 
     <div class="banner collapse" id="banner-drawing">
       <div class="banner-text">
-        <h1>Drawing</h1>
+        <h3>Drawing</h3>
         <p>I have always loved spending a few hours with no other task in mind but to draw lines and curves with a pencil, however I do not draw often.</p>
         <p>None of my drawing are originals, I copy existing ones from video-games, comics and animes.</p>
       </div>
