@@ -19,7 +19,7 @@
     z-index: 1;
 }
 
-.wrapper .item h1 {
+/* .wrapper .item h1 {
     color: E5E5E5;
     position: absolute;
     top: -20%;
@@ -27,13 +27,33 @@
     right: 3%;
     font-size: 1.4vw;
     font-family: 'Montserrat';
+} */
+
+.wrapper .item .item-title {
+    color: E5E5E5;
+    position: absolute;
+    top: -15%;
+    left: 3%;
+    right: 3%;
+    font-size: 1.4vw;
+    font-family: 'Montserrat';
+    padding-top: 22%;
+    display: block;
+}
+
+.wrapper .item .lower {
+    padding-top: 26%;
+}
+
+.wrapper .item .upper {
+    margin-top: -5.5%;
 }
 
 .wrapper .item .description {
     color: E5E5E5;
     font-size: 0.9vw;
     position: absolute;
-    top: 53%;
+    top: 60%;
     left: 3%;
     right: 3%;
     text-align: justify;
@@ -42,7 +62,7 @@
 .wrapper .item .date {
     color: E5E5E5;
     position: absolute;
-    top: 38%;
+    top: 42%;
     font-weight: bold;
     left: 3%;
     right: 3%
