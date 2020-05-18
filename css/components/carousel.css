@@ -93,6 +93,14 @@
     font-family: 'Montserrat'
 }
 
+#title-programming {
+    margin-top: -0.6vw;
+}
+
+#text-programming {
+    margin-top: 0.2vw;
+}
+
 .hit-box a {
     display: block;
     height: 100%;
