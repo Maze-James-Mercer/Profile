@@ -158,8 +158,8 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/soap-bg.jpg);
 }
 
-.wrapper #card-tutor {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/tutor-bg.jpg);
+.wrapper #card-patent {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/patent-bg.jpg);
 }
 
 .wrapper #card-fiducial {

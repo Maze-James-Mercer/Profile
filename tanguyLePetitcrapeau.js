@@ -13,7 +13,7 @@ var list = [
     ["lien-homerun" , "btn-close-homerun" , "banner-homerun"] , // EXPERIENCE
     ["lien-tee" , "btn-close-tee"  , "banner-tee"] ,
     ["lien-soap" , "btn-close-soap" , "banner-soap"],
-    ["lien-tutor" , "btn-close-tutor" , "banner-tutor"] , 
+    ["lien-patent" , "btn-close-patent" , "banner-patent"] , 
     ["lien-fiducial" , "btn-close-fiducial" , "banner-fiducial"],
 
     ["lien-spirit" , "btn-close-spirit" , "banner-spirit"] , // SKILLS
@@ -72,12 +72,12 @@ function main() {
     //     document.getElementById("banner-soap").style.display = "none";
     // });
 
-    // document.getElementById("lien-tutor").addEventListener("click", function() { 
-    //     document.getElementById("banner-tutor").style.display = "flex";
+    // document.getElementById("lien-patent").addEventListener("click", function() { 
+    //     document.getElementById("banner-patent").style.display = "flex";
     // });
     
-    // document.getElementById("btn-close-tutor").addEventListener("click", function() {
-    //     document.getElementById("banner-tutor").style.display = "none";
+    // document.getElementById("btn-close-patent").addEventListener("click", function() {
+    //     document.getElementById("banner-patent").style.display = "none";
     // });
 
     // document.getElementById("lien-fiducial").addEventListener("click", function() { 

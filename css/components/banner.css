@@ -181,11 +181,11 @@
     url("../../images/soap-banner.jpg");
 }
 
-#banner-image-tutor {
+#banner-image-patent {
     background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
     rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
     rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
-    url("../../images/tutor-banner.jpg");
+    url("../../images/patent-banner.jpg");
 }
 
 #banner-image-fiducial {
