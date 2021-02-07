@@ -7,7 +7,7 @@ var list = [
     ["lien-edhec" , "btn-close-edhec"  , "banner-edhec"]  , // EDUCATION
     ["lien-exam" , "btn-close-exam"  , "banner-exam"] ,
     ["lien-recamier" , "btn-close-recamier" , "banner-recamier"],
-    ["lien-lyon2" , "btn-close-lyon2" , "banner-lyon2"] , 
+    ["lien-skk" , "btn-close-skk" , "banner-skk"] , 
     ["lien-blaise" , "btn-close-blaise" , "banner-blaise"],
 
     ["lien-homerun" , "btn-close-homerun" , "banner-homerun"] , // EXPERIENCE
@@ -17,10 +17,10 @@ var list = [
     ["lien-fiducial" , "btn-close-fiducial" , "banner-fiducial"],
 
     ["lien-spirit" , "btn-close-spirit" , "banner-spirit"] , // SKILLS
-    ["lien-management" , "btn-close-management"  , "banner-management"] ,
-    ["lien-languages" , "btn-close-languages" , "banner-languages"],
+    ["lien-business" , "btn-close-business"  , "banner-business"] ,
+    ["lien-soft" , "btn-close-soft" , "banner-soft"],
     ["lien-code" , "btn-close-code" , "banner-code"] , 
-    ["lien-software" , "btn-close-software" , "banner-software"],
+    ["lien-learning" , "btn-close-learning" , "banner-learning"],
 
     ["lien-music" , "btn-close-music" , "banner-music"] , // HOBBIES
     ["lien-development" , "btn-close-development"  , "banner-development"] ,
@@ -99,20 +99,20 @@ function main() {
     //     document.getElementById("banner-spirit").style.display = "none";
     // });
     
-    // document.getElementById("lien-management").addEventListener("click", function() {
-    //     document.getElementById("banner-management").style.display = "flex";
+    // document.getElementById("lien-business").addEventListener("click", function() {
+    //     document.getElementById("banner-business").style.display = "flex";
     // });
 
-    // document.getElementById("btn-close-management").addEventListener("click", function() {
-    //     document.getElementById("banner-management").style.display = "none";
+    // document.getElementById("btn-close-business").addEventListener("click", function() {
+    //     document.getElementById("banner-business").style.display = "none";
     // });
 
-    // document.getElementById("lien-languages").addEventListener("click", function() { 
-    //     document.getElementById("banner-languages").style.display = "flex";
+    // document.getElementById("lien-soft").addEventListener("click", function() { 
+    //     document.getElementById("banner-soft").style.display = "flex";
     // });
     
-    // document.getElementById("btn-close-languages").addEventListener("click", function() {
-    //     document.getElementById("banner-languages").style.display = "none";
+    // document.getElementById("btn-close-soft").addEventListener("click", function() {
+    //     document.getElementById("banner-soft").style.display = "none";
     // });
 
     // document.getElementById("lien-code").addEventListener("click", function() { 
@@ -123,12 +123,12 @@ function main() {
     //     document.getElementById("banner-code").style.display = "none";
     // });
 
-    // document.getElementById("lien-software").addEventListener("click", function() { 
-    //     document.getElementById("banner-software").style.display = "flex";
+    // document.getElementById("lien-learning").addEventListener("click", function() { 
+    //     document.getElementById("banner-learning").style.display = "flex";
     // });
     
-    // document.getElementById("btn-close-software").addEventListener("click", function() {
-    //     document.getElementById("banner-software").style.display = "none";
+    // document.getElementById("btn-close-learning").addEventListener("click", function() {
+    //     document.getElementById("banner-learning").style.display = "none";
     // });
 
 

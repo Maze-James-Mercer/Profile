@@ -137,8 +137,8 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/recamier-bg.jpg);
 }
 
-.wrapper #card-lyon2 {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/lyon2-bg.jpg);
+.wrapper #card-skk {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/skk-bg.jpg);
 }
 
 .wrapper #card-blaise {
@@ -173,20 +173,20 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/spirit-bg.jpg);
 }
 
-.wrapper #card-management {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/management-bg.jpg);
+.wrapper #card-business {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/business-bg.jpg);
 }
 
-.wrapper #card-languages {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/languages-bg.jpg);
+.wrapper #card-soft {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/soft-bg.jpg);
 }
 
 .wrapper #card-code {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/code-bg.jpg);
 }
 
-.wrapper #card-software {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/software-bg.jpg);
+.wrapper #card-learning {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/learning-bg.jpg);
 }
 
     /* section hobbies */
