@@ -141,8 +141,8 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/skk-bg.jpg);
 }
 
-.wrapper #card-blaise {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/blaise-bg.jpg);
+.wrapper #card-berkeley {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/berkeley-bg.jpg);
 }
 
     /* section experience */
@@ -163,8 +163,8 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/patent-bg.jpg);
 }
 
-.wrapper #card-fiducial {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/fiducial-bg.jpg);
+.wrapper #card-freelance {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/freelance-bg.jpg);
 }
 
     /* section skills */

@@ -8,13 +8,13 @@ var list = [
     ["lien-exam" , "btn-close-exam"  , "banner-exam"] ,
     ["lien-recamier" , "btn-close-recamier" , "banner-recamier"],
     ["lien-skk" , "btn-close-skk" , "banner-skk"] , 
-    ["lien-blaise" , "btn-close-blaise" , "banner-blaise"],
+    ["lien-berkeley" , "btn-close-berkeley" , "banner-berkeley"],
 
     ["lien-homerun" , "btn-close-homerun" , "banner-homerun"] , // EXPERIENCE
     ["lien-tee" , "btn-close-tee"  , "banner-tee"] ,
     ["lien-soap" , "btn-close-soap" , "banner-soap"],
     ["lien-patent" , "btn-close-patent" , "banner-patent"] , 
-    ["lien-fiducial" , "btn-close-fiducial" , "banner-fiducial"],
+    ["lien-freelance" , "btn-close-freelance" , "banner-freelance"],
 
     ["lien-spirit" , "btn-close-spirit" , "banner-spirit"] , // SKILLS
     ["lien-business" , "btn-close-business"  , "banner-business"] ,
@@ -80,12 +80,12 @@ function main() {
     //     document.getElementById("banner-patent").style.display = "none";
     // });
 
-    // document.getElementById("lien-fiducial").addEventListener("click", function() { 
-    //     document.getElementById("banner-fiducial").style.display = "flex";
+    // document.getElementById("lien-freelance").addEventListener("click", function() { 
+    //     document.getElementById("banner-freelance").style.display = "flex";
     // });
     
-    // document.getElementById("btn-close-fiducial").addEventListener("click", function() {
-    //     document.getElementById("banner-fiducial").style.display = "none";
+    // document.getElementById("btn-close-freelance").addEventListener("click", function() {
+    //     document.getElementById("banner-freelance").style.display = "none";
     // });
 
 
