@@ -176,11 +176,11 @@
     url("../../images/tee-banner.jpg");
 }
 
-#banner-image-soap {
+#banner-image-futures {
     background-image: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.9556197478991597) 4%, 
     rgba(0,0,0,0.9192051820728291) 7%, rgba(0,0,0,0.7707457983193278) 11%, 
     rgba(0,0,0,0.3029586834733894) 19%, rgba(0,0,0,0) 29%), 
-    url("../../images/soap-banner.jpg");
+    url("../../images/futures-banner.jpg");
 }
 
 #banner-image-patent {

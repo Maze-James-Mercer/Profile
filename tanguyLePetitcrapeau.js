@@ -12,7 +12,7 @@ var list = [
 
     ["lien-homerun" , "btn-close-homerun" , "banner-homerun"] , // EXPERIENCE
     ["lien-tee" , "btn-close-tee"  , "banner-tee"] ,
-    ["lien-soap" , "btn-close-soap" , "banner-soap"],
+    ["lien-futures" , "btn-close-futures" , "banner-futures"],
     ["lien-patent" , "btn-close-patent" , "banner-patent"] , 
     ["lien-freelance" , "btn-close-freelance" , "banner-freelance"],
 
@@ -64,12 +64,12 @@ function main() {
     //     document.getElementById("banner-tee").style.display = "none";
     // });
 
-    // document.getElementById("lien-soap").addEventListener("click", function() { 
-    //     document.getElementById("banner-soap").style.display = "flex";
+    // document.getElementById("lien-futures").addEventListener("click", function() { 
+    //     document.getElementById("banner-futures").style.display = "flex";
     // });
     
-    // document.getElementById("btn-close-soap").addEventListener("click", function() {
-    //     document.getElementById("banner-soap").style.display = "none";
+    // document.getElementById("btn-close-futures").addEventListener("click", function() {
+    //     document.getElementById("banner-futures").style.display = "none";
     // });
 
     // document.getElementById("lien-patent").addEventListener("click", function() { 
